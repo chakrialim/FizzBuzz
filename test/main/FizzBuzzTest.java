@@ -30,5 +30,13 @@ class FizzBuzzTest {
 		fb.next();
 		assertEquals("fizz",fb.next());
 	}
+	
+	@Test
+	void testQuatrePersonne() {
+		fb.next();
+		fb.next();
+		fb.next();
+		assertEquals("4",fb.next());
+	}
 
 }
